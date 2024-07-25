@@ -7,6 +7,41 @@
     <link rel="stylesheet" href="styles/alert.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="nav">
+            <div class="nav-logo">
+                <img src="images/Logo-2.jpg" alt="My logo">
+                <h3>Farreach SecuAlat</h3>
+            </div>
+            <div class="nav-keys">
+                <a class="key" href="index.html"><i class="fa-solid fa-address-card"></i>Home</a>
+                <a href="signup.html"><i class="fa-solid fa-ferry"></i>Sign Up</a>
+                <a href="signin.html"><i class="fa-solid fa-envelope"></i>Sign In</a>
+            </div>
+        </div>
+        <div class="header">
+            <h1>Welcome to the Alert Message Form of Farreach SecuAlat</h1>
+            <p>This is the offical website of Farreach SecuAlat</p>
+        </div>
+        <form class="alertform" method="post">
+            <label for="Enter your Name">Enter your Name: </label>
+                <input required type ="text" id="your name" name="your name"><br><br>
+                <label for="User-email">Enter your Email:</label>
+                <input required type="text" id="your email" name="your email"><br><br>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text"><br><br>
+                <label for="location">Your Location:</label>
+                <input type="text"><br><br>
+                <label for="gender">Gender:</label><br>
+                <label for="male">Male:</label>
+                <input type="radio"id="male" name="male"><br>
+                <label for="female">Female:</label>
+                <input type="radio"id="female" name="female"><br>
+                <label for="others">Others:</label>
+                <input type="radio"id="others" name="others"><br><br>
+                <label for="alertmessage">Alert Message:</label>
+                <input type="text"><br><br>
+                <button class="submit">Submit</button>
+        </form>
 </body>
 </html>
