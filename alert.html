@@ -23,7 +23,7 @@
             <h1>Welcome to the Alert Message Form of Farreach SecuAlat</h1>
             <p>This is the offical website of Farreach SecuAlat</p>
         </div>
-        <form class="alertform" method="post">
+        <form class="alertform" method="post" enctype="multipart/form-data">
             <label for="Enter your Name">Enter your Name: </label>
                 <input required type ="text" id="your name" name="your name"><br><br>
                 <label for="User-email">Enter your Email:</label>
@@ -31,7 +31,7 @@
                 <label for="phoneNumber">Phone Number:</label>
                 <input type="text"><br><br>
                 <label for="location">Your Location:</label>
-                <input type="text"><br><br>
+                <input type="text"id="location" name="location"><br><br>
                 <label for="gender">Gender:</label><br>
                 <label for="male">Male:</label>
                 <input type="radio"id="male" name="male"><br>
@@ -41,6 +41,8 @@
                 <input type="radio"id="others" name="others"><br><br>
                 <label for="alertmessage">Alert Message:</label>
                 <input type="text"><br><br>
+                <label for="file">Upload File:</label>
+                <input type="file" id="myFile" name="filename"><br><br>
                 <button class="submit">Submit</button>
         </form>
 </body>
