@@ -61,11 +61,18 @@ h1{
     
 p{
         margin-left: 20px;
-    } 
+    }
+    
+    h3{
+        color: azure;
+        font-size: larger;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left: 5%;
+    }
 
 .alertform{
     width: 60%;
-    height: 70%;
+    height: 75%;
     background-color: rgb(73, 63, 63);
     align-items: center;
     justify-content: center;
