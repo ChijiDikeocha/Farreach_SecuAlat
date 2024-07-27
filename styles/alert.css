@@ -7,10 +7,12 @@
 .main{
     width: 100%;
     height: 120vh;
-    background-image: url(../images/pexels-pixabay-265072.jpg);
+    /* background-image: url(../images/pexels-pixabay-265072.jpg); */
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .main .background-image{
@@ -25,6 +27,8 @@
     margin-left: 0 30px;
     margin-right: 0 30px;
     padding-top: 15px;
+    height: 60px;
+    background-color: red;
 }
 
 .nav-logo{
@@ -50,11 +54,12 @@
 .nav-keys a{
     margin-right: 20px;
     text-decoration: none;
+    color: white;
+    align-items: center;
 }
-
 .nav-keys a:hover{
     cursor: pointer;
-    color: brown;
+    color: #555;
 }
 
 h1{
@@ -76,7 +81,7 @@ p{
 .alertform{
     width: 60%;
     height: 75%;
-    background-color: rgb(73, 63, 63);
+    background-color: rgb(20, 19, 19);
     align-items: center;
     justify-content: center;
     margin-left: 20%;
@@ -106,6 +111,10 @@ p{
     margin-left: 30px;
 }
 
+.alertform input .uploadfile{
+    color: white;
+}
+
 
 .submit{
     display: flex;
@@ -115,7 +124,7 @@ p{
     height: 40px;
     border-radius: 2ch;
     font-size: large;
-    background-color: rgb(17, 145, 45);
+    background-color: red;
     color: white;
     cursor: pointer;
     margin-left: 40%;
@@ -123,5 +132,5 @@ p{
 }
 
 .submit:hover{
-    background-color:rgb(255, 196, 0);
+    background-color:#555;
 }
