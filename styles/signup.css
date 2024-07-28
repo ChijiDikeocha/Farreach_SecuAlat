@@ -6,8 +6,7 @@
 
 .main{
     width: 100%;
-    height: 120vh;
-    /* background-image: url(../images/pexels-pixabay-265072.jpg); */
+    height: 150vh;
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,9 +14,6 @@
     position: relative;
 }
 
-.main .background-image{
-    height: 130%;
-}
 
 .nav{
     display: flex;
@@ -74,7 +70,7 @@ p{
 
 .signup{
     width: 60%;
-    height: 95%;
+    height: 75%;
     background-color: rgb(19, 18, 18);
     align-items: center;
     justify-content: center;

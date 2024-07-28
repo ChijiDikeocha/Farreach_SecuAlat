@@ -155,3 +155,12 @@ p{
         display: block;
         }
     }
+
+.footer{
+        background-color: red;
+        color: white;
+        height: 40px;
+        text-align: center;
+        align-content: center;
+    }
+    
