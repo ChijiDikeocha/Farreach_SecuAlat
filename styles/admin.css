@@ -149,7 +149,7 @@ i{
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
     float: left;
-    height: 100px;
+    /* height: 100px; */
     width: 100px;
     background-color: red;
     border-radius: 50%;
