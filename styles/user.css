@@ -138,15 +138,23 @@ i{
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
         float: left;
-        /* height: 100px; */
+        height: 100px;
         width: 100px;
         background-color: red;
         border-radius: 50%;
+        vertical-align: middle;
         /* display: flex; */
         /* align-items: center; */
         /* justify-content: center; */
         overflow: hidden;
     }
+
+/* .avatar {
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+} */
     
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
