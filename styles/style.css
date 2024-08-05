@@ -26,6 +26,7 @@
     padding-top: 3px;
     height: 50px;
     background-color: red;
+    /* overflow: hidden; */
 }
 
 .nav-logo{
@@ -54,12 +55,217 @@
     text-decoration: none;
     color: white;
     align-items: center;
-    /* justify-content: center; */
 }
 .nav-keys a:hover{
     cursor: pointer;
     color: #555;
 }
+
+.nav-keys .icon {
+    display: none;
+}
+
+
+/* media query for  small screen and tablet */
+
+
+@media screen and (max-width: 162px) {
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    /* justify-content: space-between; */
+    margin-left: 0 5px;
+    margin-right: 0 5px;
+    padding-top: 3px;
+    height: 40px;
+    background-color: red;
+    gap: 40px;
+    }
+    
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 2px;
+    color: white;
+    font-size: small;
+}
+    
+.nav-logo img{
+    width: 20px;
+    border-radius: 2ch;
+}
+    
+
+.nav-keys a.icon {
+    display: flex;
+    cursor: pointer;
+}
+.nav-keys a {
+    display: none;
+}
+    
+.nav-keys{
+    background-color: red;
+    list-style: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+}
+
+
+@media screen and (max-width: 360px) {
+.nav-keys a.icon {
+        display: flex;
+        cursor: pointer;
+    }
+.nav-keys a {
+    display: none;
+    }
+
+.nav-keys{
+    background-color: red;
+    list-style: none;
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+.nav-keys .icon {
+    display: flex;
+    cursor: pointer;
+}
+.nav-keys a {
+    display: none;
+    }
+.nav-keys{
+    background-color: red;
+    list-style: none;
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.nav-keys a.icon {
+        display: flex;
+        cursor: pointer;
+    }
+.nav-keys a {
+    display: none;
+    }
+.nav-keys{
+    background-color: red;
+    list-style: none;
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .nav-keys a.icon {
+            display: flex;
+            cursor: pointer;
+        }
+    .nav-keys a {
+        display: none;
+        }
+    .nav-keys{
+        background-color: red;
+        list-style: none;
+        font-size:larger;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        }
+    }
+
+/* The "responsive" class is added to the nav-keys with JavaScript when the user clicks on the icon. 
+This class makes the nav-keys look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 360px) {
+    .nav-keys.responsive {position:absolute;}
+    .nav-keys.responsive a.icon {
+    position:relative;
+    right:0;
+    top: 0;
+    }
+    .nav-keys.responsive a {
+    float:none;
+    display:block;
+    } 
+} 
+
+@media screen and (max-width: 162px) {
+    .nav-keys.responsive {position:absolute;}
+    .nav-keys.responsive a.icon {
+    position:relative;
+    right:0;
+    top: 0;
+    }
+    .nav-keys.responsive a {
+    float:none;
+    display:block;
+    } 
+} 
+
+@media screen and (max-width: 320px) {
+    .nav-keys.responsive {position:absolute;}
+    .nav-keys.responsive a.icon {
+    position:relative;
+    right:0;
+    top: 0;
+    }
+    .nav-keys.responsive a {
+    float:none;
+    display:block;
+    } 
+} 
+
+@media screen and (max-width: 768px) {
+    .nav-keys.responsive {position:absolute;}
+    .nav-keys.responsive a.icon {
+    position:relative;
+    right:0;
+    top: 0;
+    }
+    .nav-keys.responsive a {
+    float:none;
+    display:block;
+    } 
+} 
+
+@media screen and (max-width: 890px) {
+    .nav-keys.responsive {position:absolute;}
+    .nav-keys.responsive a.icon {
+    position:relative;
+    right:0;
+    top: 0;
+    }
+    .nav-keys.responsive a {
+    float:none;
+    display:block;
+    } 
+} 
+
+/* close media query for small screen */
+
+
 h1{
         margin-left: 20px;
         padding-top: 10px;
@@ -147,6 +353,20 @@ h3 a{
     width: 25%;
     border-radius: 8px;
 }
+
+/* media query for small screen */
+
+@media screen and (max-width: 360px) {
+    .alert {
+        width: 100%;
+        }
+    }
+
+@media screen and (max-width: 768px) {
+    .alert {
+        width: 50%;
+        }
+    } 
 
 .alert:hover{
     cursor: pointer;
