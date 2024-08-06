@@ -26,7 +26,6 @@
     padding-top: 3px;
     height: 50px;
     background-color: red;
-    /* overflow: hidden; */
 }
 
 .nav-logo{
@@ -74,7 +73,6 @@
     display: flex;
     flex-direction: row;
     align-items: center ;
-    /* justify-content: space-between; */
     margin-left: 0 5px;
     margin-right: 0 5px;
     padding-top: 3px;
@@ -200,14 +198,15 @@
 This class makes the nav-keys look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 360px) {
     .nav-keys.responsive {position:absolute;}
-    .nav-keys.responsive a.icon {
+    .nav-keys.responsive a.icon { 
     position:relative;
     right:0;
-    top: 0;
+    top:0;
+    z-index:9999;
     }
     .nav-keys.responsive a {
-    float:none;
-    display:block;
+    float: none;
+    display: block;
     } 
 } 
 
