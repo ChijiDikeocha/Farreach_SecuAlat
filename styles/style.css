@@ -12,6 +12,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: grid;
+    grid-template-rows: 50px 100px 40px;
+    overflow: scroll;
 }
 
 
@@ -95,7 +98,6 @@
     margin-left: 0 5px;
     margin-right: 0 5px;
     padding-top: 3px;
-    height: 40px;
     background-color: red;
     gap: 40px;
     }
@@ -136,8 +138,9 @@
 
 
 .main{
-    width: 100%;
-}
+    grid-template-rows:40px 250px 30px;
+    }
+
 
 .header{
     display: flex;
@@ -153,6 +156,7 @@ h1{
 .callup{
     width: 50%;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .sin,.sup{
@@ -173,7 +177,6 @@ h3 a{
 }
 
 .footer{
-    height: 90px;
     padding-right: 15px;
     gap: 8px;
     font-size: smaller;
@@ -189,8 +192,8 @@ a{
 .nav-keys a.icon {
         display: block;
         float: right;
-        /* cursor: pointer; */
     }
+
 .nav-keys a {
     display: none;
     }
@@ -203,11 +206,10 @@ a{
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    height: 50px;
     }
 
 .main{
-    width: 100%;
+    grid-template-rows:50px 280px 40px;
 }
 
 .header{
@@ -223,6 +225,7 @@ h1{
 .callup{
     width: 30%;
     margin-left: 8%;
+    margin-bottom: 180px;
 }
 
 h3{
@@ -239,8 +242,7 @@ h3 a{
 }
 
 .footer{
-    height: 90px;
-    padding-right: 15px;
+    padding-right: 12px;
     gap: 8px;
     font-size: smaller;
 }
@@ -251,19 +253,19 @@ a{
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 395px) {
 .nav-keys a .icon {
     display: block;
-    /* cursor: pointer; */
     float: right;
 }
 
 .main{
-    width: 100%;
+    grid-template-rows:50px 280px 40px;
 }
 .nav-keys a {
     display: none;
     }
+
 .nav-keys{
     background-color: red;
     list-style: none;
@@ -274,17 +276,22 @@ a{
     flex-wrap: wrap;
     height: 50px;
     }
+
+.callup{
+    width: 30%;
+    margin-left: 8%;
+    margin-bottom: 180px;
+    }
 }
 
 @media screen and (max-width: 430px) {
 .nav-keys a.icon {
         display: block;
-        /* cursor: pointer; */
         float: right;
 }
 
 .main{
-    width: 100%;
+    grid-template-rows:50px 280px 40px;
 }
 
 .nav-keys a {
@@ -314,7 +321,8 @@ h1{
 .callup{
     width: 30%;
     margin-left: 8%;
-}
+    margin-bottom: 180px;
+    }
 
 h3{
     text-align: right ;
@@ -330,7 +338,6 @@ h3 a{
 }
 
 .footer{
-    height: 90px;
     padding-right: 15px;
     gap: 8px;
     font-size: smaller;
@@ -345,12 +352,11 @@ a{
 @media screen and (max-width: 768px) {
 .nav-keys a.icon {
         display: block;
-        /* cursor: pointer; */
         float: right;
     }
 
 .main{
-    width: 100%;
+    grid-template-rows:50px 200px 40px;
 }
 .nav-keys a {
     display: none;
@@ -366,12 +372,67 @@ a{
     flex-wrap: wrap;
     height: 50px;
     } 
+.callup{
+    margin-bottom: 50px;
+    }
+
+.footer{
+    padding-right: 15px;
+    gap: 8px;
+    font-size:x-large;
+}
+    
+a{
+    font-size:x-large;
 }
 
+}
+
+@media screen and (max-width: 820px) {
+    .nav-keys a.icon {
+        display: block;
+        float: right;
+    }
+    
+    .main{
+        grid-template-rows:50px 120px 50px;
+    }
+    .nav-keys a {
+        display: none;
+        }
+    
+    .nav-keys{
+        background-color: red;
+        list-style: none;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 50px;
+        } 
+
+    .callup{
+            width: 30%;
+            margin-left: 8%;
+            margin-bottom: 20px;
+        }
+    
+    .footer{
+        padding-right: 15px;
+        gap: 8px;
+        font-size:x-large;
+    }
+        
+    a{
+        font-size:x-large;
+    }
+    
+    }
+    
 @media screen and (max-width: 890px) {
     .nav-keys a.icon {
             display: block;
-            /* cursor: pointer; */
             float: right;
         }
     .nav-keys a {
@@ -386,26 +447,12 @@ a{
         text-align: center;
         flex-wrap: wrap;
         height: 50px;
-        } 
-}
+        }
 
-/* media query for max-min height */
-@media screen and (max-height: 360px) {
-    .main{height: 250vh;
+    .main{
+        grid-template-rows:50px 160px 20px;
+        }
 }
-}
-
-@media screen and (max-height: 890px) {
-    .main{height: 380vh;
-}
-}
-
-@media screen and (min-height: 890px) {
-    .main{height: 250vh;
-} 
-} 
-
-
 
 /* The "responsive" class is added to the nav-keys with JavaScript when the user clicks on the icon. 
 This class makes the nav-keys look good on small screens (display the links vertically instead of horizontally) */
@@ -499,11 +546,9 @@ p{
 
 .callup{
         width: 50%;
-        height: 10%;
         display: flex;
         flex-direction: row;
         align-content: flex-end;
-        /* justify-content: center; */
         padding-top: 10px;
         gap: 10px;
     }
@@ -631,7 +676,6 @@ h2{
 .footer{
     background-color: red;
     color: white;
-    height: 40px;
     display: flex;
     flex-direction: row;
     text-align: center;
