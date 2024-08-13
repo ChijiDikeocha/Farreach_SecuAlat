@@ -13,7 +13,7 @@
     background-size: cover;
     position: relative;
     display: grid;
-    grid-template-rows: 50px 100px 40px;
+    grid-template-rows: 50px  auto 2px;
     overflow: scroll;
 }
 
@@ -89,17 +89,26 @@
 h1{
         margin-left: 20px;
         padding-top: 10px;
-    }
+}
     
 p{
-        margin-left: 20px;
-    }
+    margin-left: 20px;
+}
 
-    h2{
-        margin-left: 20px;
-        padding-top: 5px;
-        color: rgb(38, 0, 255);
-    }
+h2{
+    margin-left: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+    color: rgb(38, 0, 255);
+}
+
+h4{
+    margin-left: 20px;
+    font-size: xx-large;
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+}
 
 .rollmess{
         width: 100%;
@@ -110,6 +119,10 @@ p{
         justify-content: center;
         margin-top: 20px;
     }
+
+.column{
+    margin-top: 40px;
+}
 
     *, *:before, *:after {
         box-sizing: inherit;
@@ -160,7 +173,7 @@ p{
         width: 100%;
     }
 
-    a {
+    .container a {
         text-decoration: none;
         font-size: 22px;
         color: black;
@@ -342,9 +355,9 @@ p{
     .rollmess{
         margin-top: 10px;
     }
-    /* .row{
-        margin-top: 10px;
-    } */
+    .row{
+        margin-top: 20px;
+    } 
     
     .column{
         margin-top: 20px;
