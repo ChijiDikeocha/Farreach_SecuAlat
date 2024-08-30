@@ -59,7 +59,7 @@
     float: left;
     display: block;
     text-align: center;
-    /* padding: 14px 16px; */
+    padding-top: 10px;
 }
 .nav-keys a:hover{
     cursor: pointer;
