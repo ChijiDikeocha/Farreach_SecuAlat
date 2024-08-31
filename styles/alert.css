@@ -660,9 +660,10 @@ a:hover {
         flex-wrap: wrap;
         height: 50px;
         }
+
         .alertform{
             width: 80%;
-            height: 65%;
+            height: 83%;
             background-color: rgb(44, 41, 41);
             align-items: center;
             justify-content: center;
