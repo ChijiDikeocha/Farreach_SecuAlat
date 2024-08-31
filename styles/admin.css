@@ -12,7 +12,7 @@
     background-size: cover;
     position: relative;
     display: grid;
-    grid-template-rows: 50px  auto 2px;
+    grid-template-rows: 50px 160px 40px;
     overflow: scroll;
 }
 
@@ -25,7 +25,7 @@
     margin-left: 0 30px;
     margin-right: 0 30px;
     padding-top: 3px;
-    height: 40px;
+    height: 50px;
     background-color: red;
     overflow: hidden;
 }
@@ -59,8 +59,9 @@
     float: left;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 10px;
 }
+
 .nav-keys a:hover{
     cursor: pointer;
     color: #555;
@@ -145,7 +146,6 @@
     .nav-keys a.icon {
         display: block;
         float: right;
-        padding-top: 10px;
         }
     
     .nav-keys a {
@@ -163,7 +163,7 @@
         }
     
     .main{
-        grid-template-rows:50px auto 40px;
+        grid-template-rows:50px auto 60px;
     }
 
     .header{
@@ -206,6 +206,15 @@
         vertical-align: middle;
         overflow: hidden;
     }
+
+.cards{
+    margin-top: 55px;
+}
+
+.footer{
+    height: 60px;
+    font-size: smaller;
+}
 }
 
 @media screen and (max-width: 395px) {
@@ -216,7 +225,7 @@
     }
     
     .main{
-        grid-template-rows:50px auto 40px;
+        grid-template-rows:50px auto 60px;
     }
     .nav-keys a {
         display: none;
@@ -268,6 +277,19 @@
     border-radius: 50%;
     vertical-align: middle;
     overflow: hidden;
+}
+
+p{
+    margin-top: 30px;
+}
+
+.cards{
+    margin-top: 55px;
+}
+
+.footer{
+    height: 60px;
+    font-size: smaller;
 }
 }
 
@@ -329,6 +351,19 @@ background-color: red;
 border-radius: 50%;
 vertical-align: middle;
 overflow: hidden;
+}
+
+p{
+    margin-top: 30px;
+}
+
+.cards{
+    margin-top: 55px;
+}
+
+.footer{
+    height: 60px;
+    font-size: smaller;
 }
 }
 
@@ -404,7 +439,7 @@ overflow: hidden;
         }
     
     .main{
-        grid-template-rows:50px 160px 20px;
+        grid-template-rows:50px 160px 40px;
         }
     }
     
