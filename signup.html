@@ -28,13 +28,13 @@
             <h1>Welcome to Sign up Page of Farreach SecuAlat</h1>
             <p>This is the offical website of Farreach SecuAlat</p>
         </div>
-        <form class="signup" method="post">
+        <form class="signup" method="post" action="#">
             <p>Please fill in this form to create an account.</p>
             <hr>
             <label for="Enter your Name">Enter your Name: </label>
                 <input  required type ="text" id="your name" name="your name"><br><br>
                 <label for="User-email">Enter your Email:</label>
-                <input required type="text" id="your email" name="your email"><br><br>
+                <input required type="email" id="email" name="email"><br><br>
                 <label for="password">Your Password:</label>
                 <input required type="password" id="password" name="password"><br><br>
                 <label for="phoneNumber">Phone Number:</label>
@@ -56,6 +56,7 @@
                 <label for="#">Single</label>
                 <input type="radio"><br>
                 <hr>
+                <p> Note: Your password must has at least one uppercase, one lowercase, and a number characters</p>
                 <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
                 <button class="submit">Sign up</button>
             
@@ -63,14 +64,13 @@
                     <p>Already have an account? <a href="signin.html">Sign in</a>.</p>
                 </div>
         </form>
-    
-        <div class="footer">
-            <p>&COPY; 2024   Farreach SecuAlat</p>
-            <a href="#"><i class="fa fa-dribbble"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-        </div>
+    </div>
+    <div class="footer">
+        <p>&COPY; 2024   Farreach International</p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
     </div>
     <script src="signup.js"></script>
 </body>

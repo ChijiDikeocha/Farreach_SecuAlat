@@ -127,6 +127,13 @@ p {
     padding: 0 20px;
 }
 
+.signin p{
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+}
+
 .SI {
     display: flex;
     align-items: center;

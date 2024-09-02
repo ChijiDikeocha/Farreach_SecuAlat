@@ -30,14 +30,15 @@
         </div>
         <form  class="signin" method="post">
             <label for="User-email">Enter your Email:</label><br>
-            <input required type="text" id="your email" name="your email"><br><br>
+            <input required type="email" id="email" name="email"><br><br>
             <label for="password">Your Password:</label><br>
-            <input required type ="text" id="Password" name="password"><br><br>
-            <button class="SI"><a href="user.html"></a> Sign in</button>
+            <input required type ="text" id="password" name="password"><br><br>
+            <a href="user.html"><button class="SI" onclick="validateUser()">Sign in</button></a>
+            <p> Note: Your password must has at least one uppercase, one lowercase, and a number characters</p>
         </form>
     </div>
     <div class="footer">
-        <p>&COPY; 2024   Farreach SecuAlat</p>
+        <p>&COPY; 2024   Farreach International</p>
         <a href="#"><i class="fa fa-dribbble"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-linkedin"></i></a>

@@ -6,7 +6,7 @@
 
 .main {
     width: 100%;
-    height: 150vh;
+    height: 170vh;
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ p{
 
 .signup{
     width: 60%;
-    height: 75%;
+    height: 70%;
     background-color: rgb(44, 41, 41);
     align-items: center;
     justify-content: center;
@@ -170,6 +170,7 @@ p{
     justify-content: space-around;
     font-size: larger;
     margin-top: 15px;
+    height: 40px;
 }
     
 a {
@@ -208,7 +209,7 @@ a:hover {
 
     .signup{
         width: 80%;
-        height: 100%;
+        height: 80%;
         background-color: rgb(44, 41, 41);
         align-items: center;
         justify-content: center;
@@ -293,7 +294,7 @@ a:hover {
 
     .signup{
         width: 80%;
-        height: 95%;
+        height: 60%;
         background-color: rgb(44, 41, 41);
         align-items: center;
         justify-content: center;
@@ -549,7 +550,7 @@ a:hover {
     }
     .signup{
         width: 80%;
-        height: 105%;
+        height: 85%;
         background-color: rgb(44, 41, 41);
         align-items: center;
         justify-content: center;
