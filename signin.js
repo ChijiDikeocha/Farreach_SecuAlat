@@ -50,7 +50,7 @@ myInput.onkeyup = function() {
 
   // Validate symbols
     var symbols = /[?=.*\d)(?=.*[@$!%*?&]]/g;
-    if(myInput.value.match(symbol)) {
+    if(myInput.value.match(symbols)) {
     symbol.classList.remove("invalid");
     symbol.classList.add("valid");
     } else {
@@ -75,6 +75,16 @@ var numbers = /[0-9]/g;
     } else {
     length.classList.remove("valid");
     length.classList.add("invalid");
+    }
+}
+
+
+function myFun() {
+    var x = document.getElementById("psw");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
     }
 }
 
