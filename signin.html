@@ -28,15 +28,43 @@
             <h1>Welcome to Sign in Page of Farreach SecuAlat</h1>
             <p>This is the offical website of Farreach SecuAlat</p>
         </div>
-        <form  class="signin" method="post">
-            <label for="User-email">Enter your Email:</label><br>
-            <input required type="email" id="email" name="email"><br><br>
-            <label for="password">Your Password:</label><br>
-            <input required type ="text" id="password" name="password"><br><br>
-            <a href="user.html"><button class="SI" onclick="validateUser()">Sign in</button></a>
-            <p> Note: Your password must has at least one uppercase, one lowercase, and a number characters</p>
-        </form>
-    </div>
+        <form action="#" method="post">
+            <div class="imgcontainer">
+                <img src="images/CJ_Potriat-30.png" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="useremail"><b>Useremail</b></label>
+                <input type="text" id="email" placeholder="Enter Useremail" name="uemail" required>
+        
+                <label for="psw"><b>Password</b></label>
+                <input type="password" id="psw" placeholder="Enter Password" name="psw" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter and one symbol, and at least 8 or more characters" required>
+                
+                <button type="submit">Login</button>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#" style="color: red">password?</a></span>
+            </div>
+            </form>
+            <div id="message">
+                <h3>Password must contain the following:</h3>
+                <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                <p id="numbers" class="invalid">A <b>number</b></p>
+                <p id="symbol"  class="invalid">A <b>symbol</b></p>
+                <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+            </div>
+
+
     <div class="footer">
         <p>&COPY; 2024   Farreach International</p>
         <a href="#"><i class="fa fa-dribbble"></i></a>
