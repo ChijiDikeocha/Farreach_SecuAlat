@@ -49,7 +49,7 @@ myInput.onkeyup = function() {
     }
 
   // Validate symbols
-    var symbols = /[?=.*\d)(?=.*[@$!%*?&]]/g;
+    var symbols = /[?=.*\d)(?=.*[@$!%*?&]/g;
     if(myInput.value.match(symbols)) {
     symbol.classList.remove("invalid");
     symbol.classList.add("valid");
