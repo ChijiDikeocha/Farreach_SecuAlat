@@ -498,7 +498,14 @@ This class makes the nav-keys look good on small screens (display the links vert
     float: none;
     display: block;
     text-align: left;
-    } 
+    }
+
+    .scrollmess{
+        margin-top: 10%;
+    }
+    .alertmessage{
+        margin-top: 10%;
+    }
 } 
 
 @media screen and (max-width: 162px) {
@@ -514,6 +521,10 @@ This class makes the nav-keys look good on small screens (display the links vert
     display:block;
     text-align: left;
     } 
+
+    .alertmessage{
+        margin-top: 40px;
+    }
 } 
 
 @media screen and (max-width: 320px) {
@@ -527,7 +538,15 @@ This class makes the nav-keys look good on small screens (display the links vert
     float:none;
     display:block;
     text-align: left;
-    } 
+    }
+
+    .scrollmess{
+        margin-top: 40px;
+    }
+
+    .alertmessage{
+        margin-top: 30px;
+    }
 } 
 
 @media screen and (max-width: 768px) {
@@ -543,6 +562,10 @@ This class makes the nav-keys look good on small screens (display the links vert
     display:block;
     text-align: left;
     } 
+
+    .alertmessage{
+        margin-top: 40px;
+    }
 } 
 
 @media screen and (max-width: 890px) {
@@ -704,15 +727,59 @@ i{
         display: block;
     }
 
-.rollmess{
-        width: 100%;
-        height: 30px;
-        background-color: red;
-        color: white;
-        align-content: center;
-        justify-content: center;
-        padding-left: 20px;
+.scrollmess{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    align-content: center;
+    overflow: hidden;
+    font-size: larger;
+    margin-top: 50px;
     }
+    
+.scroll-text{
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation
+    15s linear infinite;
+    -webkit-animation: my-animation
+    15s linear infinite;
+    animation: my-animation
+    15s linear infinite;
+    }
+    
+    /* for Firefox */
+    @-moz-keyframes my-animation{
+        from { -moz-transform: 
+            translateX(100%); }
+            to { -moz-transform: translateX(-100%);}
+    }
+    
+    /* for Chrome */
+    @-webkit-keyframes my-animation {
+        from { -webkit-transform: translateX(100%);}
+        to { -webkit-transform: translateX(-100%);}
+    }
+    
+    @keyframes my-animation{
+        from {
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+        }
+        to {
+            -moz-transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+    }
+    
+    /* scroll message ends here */
+    
     
 .alertmessage{
         /* border: 1px solid black; */
@@ -722,7 +789,7 @@ i{
         justify-content: center;
         flex-wrap: wrap;
         padding: 2%;
-        /* background-color: aqua; */
+        margin-top: 65px;
     }
     
 .alert{

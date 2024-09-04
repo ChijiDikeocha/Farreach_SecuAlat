@@ -159,8 +159,8 @@ h1{
     margin-bottom: 50px;
 }
 
-.rollmess{
-    margin-top: 150px;
+.scrollmess{
+    margin-top: 120px;
 }
 
 .alertmessage{
@@ -236,11 +236,11 @@ h1{
     /* padding-top: 10%; */
 }
 .scrollmess{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .alertmessage{
-    margin-top: 170px;
+    margin-top: 120px;
 }
 h3{
     text-align: right ;
@@ -296,7 +296,7 @@ a{
     }
     
 .alertmessage{
-    margin-top: 140px;
+    margin-top: 120px;
     }
 
 .callup{
@@ -453,24 +453,14 @@ a{
             margin-left: 8%;
             margin-bottom: 20px;
         }
-    /* .callup a{
-        display: none;
-    }
-    .callup h3 a{
-        display: flex;
-    }
-    .callup h3{
-        text-align: left;
-        font-size: larger;
-    } */
     
-    /* .rollmess{
+    .scrollmess{
             margin-top: 50px;
-    } */
+    } 
 
-    /* .alertmessage{
+    .alertmessage{
             margin-top: 60px;
-    } */
+    } 
     .footer{
         padding-right: 15px;
         gap: 8px;
@@ -505,6 +495,14 @@ a{
     .main{
         grid-template-rows:50px 160px 20px;
         }
+
+        .scrollmess{
+            margin-top: 50px;
+    } 
+
+    .alertmessage{
+            margin-top: 60px;
+    } 
 }
 
 /* The "responsive" class is added to the nav-keys with JavaScript when the user clicks on the icon. 
@@ -653,7 +651,7 @@ h3 a{
     /* justify-content: center; */
     overflow: hidden;
     font-size: larger;
-    margin-top: 40px;
+    margin-top: 120px;
 }
 
 .scroll-text{
@@ -705,7 +703,7 @@ h3 a{
     justify-content: center;
     flex-wrap: wrap;
     padding: 2%;
-    margin-top: 55px;
+    margin-top: 140px;
 }
 
 .alert{

@@ -110,15 +110,59 @@ h4{
     color: blue;
 }
 
-.rollmess{
-        width: 100%;
-        height: 30px;
-        background-color: red;
-        color: white;
-        align-content: center;
-        justify-content: center;
-        margin-top: 20px;
+.scrollmess{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    align-content: center;
+    /* justify-content: center; */
+    overflow: hidden;
+    font-size: larger;
+    margin-top: 40px;
+}
+
+.scroll-text{
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation
+    15s linear infinite;
+    -webkit-animation: my-animation
+    15s linear infinite;
+    animation: my-animation
+    15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation{
+    from { -moz-transform: 
+        translateX(100%); }
+        to { -moz-transform: translateX(-100%);}
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%);}
+    to { -webkit-transform: translateX(-100%);}
+}
+
+@keyframes my-animation{
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
     }
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+/* scroll message ends here */
 
 .column{
     margin-top: 40px;
@@ -351,16 +395,21 @@ h4{
     h1{
         font-size: 25px;
     }
-    
-    .rollmess{
-        margin-top: 10px;
-    }
-    .row{
+
+    h4{
         margin-top: 20px;
+    }
+    
+    .scrollmess{
+        margin-top: 5px;
+    }
+
+    .row{
+        margin-top: 25px;
     } 
     
     .column{
-        margin-top: 20px;
+        margin-top: 25px;
     }
     .footer{
         padding-right: 12px;
@@ -428,10 +477,12 @@ h4{
         margin-left: 5px;
     } 
 
-    .rollmess{
+    .scrollmess{
         margin-top: 10px;
     }
-    
+    h4{
+        margin-top: 35px;
+    }
     .row{
         margin-top: 10px;
     }
