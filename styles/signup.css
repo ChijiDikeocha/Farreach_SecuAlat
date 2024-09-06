@@ -106,7 +106,7 @@ p{
     padding-top: 20px;
     cursor: pointer;
     color: rgb(12, 12, 12);
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .signup label{
@@ -157,7 +157,7 @@ p a:hover{
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-    background-color: white;
+    background-color: rgb(226, 217, 217);
     text-align: center;
     color: black;
     }
