@@ -7,3 +7,17 @@ function myFunction() {
         x.className = "nav-keys";
     }
 }
+
+
+
+// var myInput = document.getElementById("message");
+
+// // When the user clicks on the password field, show the message box
+// myInput.onfocus = myFun() {
+//     document.getElementById("message").style.display = "block";
+// }
+
+// // When the user clicks outside of the password field, hide the message box
+// myInput.onblur = myfun() {
+//     document.getElementById("message").style.display = "none";
+// }
