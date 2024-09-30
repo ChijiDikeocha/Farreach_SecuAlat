@@ -7,17 +7,17 @@ function myFunction() {
         x.className = "nav-keys";
     }
 }
+//* textarea alert message
 
 
+// var myInput = document.getElementById("message").style.display='block';
 
-// var myInput = document.getElementById("message");
-
-// // When the user clicks on the password field, show the message box
-// myInput.onfocus = myFun() {
+// // When the user clicks on the textarea field, show the message box
+// myInput.onfocus = myFun2() {
 //     document.getElementById("message").style.display = "block";
 // }
 
 // // When the user clicks outside of the password field, hide the message box
-// myInput.onblur = myfun() {
+// myInput.onblur = myfun2() {
 //     document.getElementById("message").style.display = "none";
 // }
