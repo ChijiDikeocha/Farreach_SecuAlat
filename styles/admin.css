@@ -12,7 +12,7 @@
     background-size: cover;
     position: relative;
     display: grid;
-    /* grid-template-rows: 50px 160px 150px; */
+    grid-template-rows: 50px 160px 150px;
     overflow: scroll;
 }
 
