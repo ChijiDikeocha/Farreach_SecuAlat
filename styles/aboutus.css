@@ -46,7 +46,7 @@
 
 .nav-keys{
     list-style: none;
-    font-size: x-large;
+    font-size: small;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     margin-right: 30px;
@@ -105,7 +105,7 @@ h2{
 h4{
     margin-left: 20px;
     font-size: xx-large;
-    margin-top: 20px;
+    margin-top: 5%;
     text-align: center;
     color: blue;
 }
@@ -165,7 +165,7 @@ h4{
 /* scroll message ends here */
 
 .column{
-    margin-top: 40px;
+    margin-top: 15%;
 }
 
     *, *:before, *:after {
@@ -176,7 +176,7 @@ h4{
         float: left;
         width: 25%;
         margin-bottom: 16px;
-        padding: 0 5px;
+        /* padding: 0 5px; */
     }
     
     .card {
@@ -360,7 +360,37 @@ h4{
         font-size: smaller;
     }
     /* } */ 
+
+    @media screen and (max-width: 162px) {
+        h4{
+            margin-top:75%;
+        }
+        
+        .row{
+            margin-top: 2px;
+        } 
+        
+        .column{
+            margin-top: 88%;
+        }
+    }
     
+
+
+
+    @media screen and (max-width: 320px) {
+        h4{
+            margin-top:75%;
+        }
+        
+        .row{
+            margin-top: 2px;
+        } 
+        
+        .column{
+            margin-top: 88%;
+        }
+    }
     
     @media screen and (max-width: 360px) {
     .nav-keys a.icon {
@@ -382,10 +412,6 @@ h4{
         flex-wrap: wrap;
         }
     
-    .main{
-        grid-template-rows:50px auto 40px;
-    }
-    
     .header{
         display:flex;
         flex-wrap: wrap;
@@ -397,7 +423,7 @@ h4{
     }
 
     h4{
-        margin-top: 20px;
+        margin-top:70%;
     }
     
     .scrollmess{
@@ -405,11 +431,11 @@ h4{
     }
 
     .row{
-        margin-top: 25px;
+        margin-top: 2px;
     } 
     
     .column{
-        margin-top: 25px;
+        margin-top: 88%;
     }
     .footer{
         padding-right: 12px;
@@ -481,12 +507,14 @@ h4{
         margin-top: 10px;
     }
     h4{
-        margin-top: 35px;
+        margin-top: 85%;
     }
     .row{
-        margin-top: 10px;
+        margin-bottom: 10px;
     }
-
+    .column{
+        margin-top: 88%;
+    }
     h1{
         font-size: x-larger;
     }
@@ -508,6 +536,15 @@ h4{
         display: block;
         /* margin-top: 50px; */
         } 
+
+    h4{
+        margin-top: 85%;
+        }
+    
+    .row{
+        margin-top: 2px;
+        }
+    
     }
     
     
@@ -534,6 +571,18 @@ h4{
         flex-wrap: wrap;
         height: 50px;
         } 
+
+        h4{
+            margin-top:35%;
+        }
+        
+        .row{
+            margin-top: 2px;
+        } 
+        
+        .column{
+            margin-top: 48%;
+        }
     
     /* .rollmess{
             margin-top: 10px;
@@ -574,10 +623,19 @@ h4{
             flex-wrap: wrap;
             height: 50px;
             } 
+    
+
+        h4{
+            margin-top:35%;
+        }
         
-        /* .rollmess{
-                margin-top: 50px;
-        } */
+        .row{
+            margin-top: 2px;
+        } 
+        
+        .column{
+            margin-top: 48%;
+        }
         .footer{
             padding-right: 15px;
             gap: 8px;
@@ -609,8 +667,18 @@ h4{
             height: 50px;
             }
     
-        .main{
-            grid-template-rows:50px 160px 20px;
+        
+
+            h4{
+                margin-top:8%;
+            }
+            
+            .row{
+                margin-top: 2px;
+            } 
+            
+            .column{
+                margin-top: 20%;
             }
     }
     

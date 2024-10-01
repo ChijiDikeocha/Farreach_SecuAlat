@@ -136,7 +136,7 @@
     
     
     .main{
-        grid-template-rows:40px auto 30px;
+        grid-template-rows:40px auto 50px;
         }
 }
 
@@ -237,7 +237,7 @@
     }
     
     .main{
-        grid-template-rows:50px auto 40px;
+        grid-template-rows:50px auto 50px;
     }
     .nav-keys a {
         display: none;
@@ -325,7 +325,7 @@
 }
 
 .main{
-    grid-template-rows:50px auto 40px;
+    grid-template-rows:50px auto 50px;
 }
 
 .nav-keys a {
@@ -412,7 +412,7 @@ border-radius: 8px;
         }
     
     .main{
-        grid-template-rows:50px auto 40px;
+        grid-template-rows:50px auto 50px;
     }
     .nav-keys a {
         display: none;
@@ -477,7 +477,7 @@ border-radius: 8px;
         }
     
     .main{
-        grid-template-rows:50px 160px 20px;
+        grid-template-rows:50px 200px 70px;
         }
     }
     
@@ -501,10 +501,10 @@ This class makes the nav-keys look good on small screens (display the links vert
     }
 
     .scrollmess{
-        margin-top: 10%;
+        margin-top: 20%;
     }
     .alertmessage{
-        margin-top: 10%;
+        margin-top: 20%;
     }
 } 
 
@@ -541,11 +541,11 @@ This class makes the nav-keys look good on small screens (display the links vert
     }
 
     .scrollmess{
-        margin-top: 40px;
+        margin-top: 20%;
     }
 
     .alertmessage{
-        margin-top: 30px;
+        margin-top: 30%;
     }
 } 
 
@@ -840,7 +840,7 @@ h2{
 .footer{
         background-color: red;
         color: white;
-        height: 40px;
+        height: 110px;
         display: flex;
         flex-direction: row;
         text-align: center;
