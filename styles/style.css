@@ -208,7 +208,7 @@ a{
 .nav-keys{
     background-color: red;
     list-style: none;
-    font-size:larger;
+    font-size:large;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     text-align: center;
@@ -283,7 +283,7 @@ a{
 .nav-keys{
     background-color: red;
     list-style: none;
-    font-size:larger;
+    font-size:large;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     text-align: center;
@@ -322,7 +322,7 @@ a{
 .nav-keys{
     background-color: red;
     list-style: none;
-    font-size:larger;
+    font-size:large;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     text-align: center;
@@ -393,7 +393,7 @@ a{
 .nav-keys{
     background-color: red;
     list-style: none;
-    font-size:larger;
+    font-size:large;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     text-align: center;
@@ -440,7 +440,7 @@ a{
     .nav-keys{
         background-color: red;
         list-style: none;
-        font-size: x-large;
+        font-size: large;
         font-family: Arial, Helvetica, sans-serif;
         justify-content: center;
         text-align: center;
@@ -484,7 +484,7 @@ a{
     .nav-keys{
         background-color: red;
         list-style: none;
-        font-size:larger;
+        font-size:large;
         font-family: Arial, Helvetica, sans-serif;
         justify-content: center;
         text-align: center;
@@ -493,7 +493,7 @@ a{
         }
 
     .main{
-        grid-template-rows:50px 160px 20px;
+        grid-template-rows:50px 200px 20px;
         }
 
         .scrollmess{

@@ -182,9 +182,14 @@ p a:hover{
     justify-content: space-around;
     font-size: larger;
     margin-top: 15px;
-    height: 50px;
+    height: 75px;
 }
-    
+
+p a{
+    color: rgb(24, 2, 2);
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
     font-size: 22px;
@@ -195,6 +200,8 @@ a {
 a:hover {
     color: #555;
 }
+
+
     
 
 /* Media  query starts here */
@@ -375,7 +382,7 @@ a:hover {
 }
 
 .footer{
-    height: 60px;
+    height: 70px;
 }
 }
     

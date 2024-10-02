@@ -714,3 +714,8 @@ i{
     a:hover{
         color: #555;
     }
+
+    p a{
+        color: rgb(24, 2, 2);
+        text-decoration: underline;
+    }

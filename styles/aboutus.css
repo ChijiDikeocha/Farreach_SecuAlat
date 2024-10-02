@@ -254,6 +254,11 @@ h4{
         color: #555;
     }
 
+    p a {
+        color: rgb(24, 2, 2);
+        text-decoration: underline;
+    }
+
 /* media query for  small screen and tablet */
 
 /* 

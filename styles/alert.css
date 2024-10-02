@@ -182,6 +182,11 @@ a {
 a:hover {
     color: #555;
 }
+
+p a{
+    color: rgb(24, 2, 2);
+    text-decoration: underline;
+}
     
 
 /* Media  query starts here */
