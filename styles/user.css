@@ -224,7 +224,7 @@
     }
     
 .alert{
-        width: 50%;
+        width: 25%;
         border-radius: 8px;
     }
 }
@@ -313,7 +313,7 @@
 }
 
 .alert{
-    width: 50%;
+    width: 25%;
     border-radius: 8px;
 }
     }
@@ -400,7 +400,7 @@ margin-top: 65px;
 }
 
 .alert{
-width: 50%;
+width: 25%;
 border-radius: 8px;
 }
 }
@@ -788,13 +788,13 @@ i{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 2%;
-        margin-top: 65px;
+        padding: 10px;
+        margin-top: 50px;
     }
     
 .alert{
-        width: 25%;
-        border-radius: 8px;
+        width: 50%;
+        border-radius: 10px;
     }
     
 .alert:hover{
@@ -817,14 +817,13 @@ h2{
 .alert button {
         border: none;
         outline: 0;
-        padding: 10px;
         color: white;
         background-color: red;
-        text-align: center;
         cursor: pointer;
-        width: 5;
-        font-size: 18px;
+        width: 90px;
+        font-size: small;
         border-radius: 2ch;
+        margin-bottom: 10px;
     }
     
 .alert button:hover {

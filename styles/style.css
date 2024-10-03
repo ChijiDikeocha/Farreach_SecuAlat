@@ -704,11 +704,12 @@ h3 a{
     flex-wrap: wrap;
     padding: 2%;
     margin-top: 140px;
+    /* margin-bottom: 30px; */
 }
 
 .alert{
     width: 25%;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* media query for small screen */
@@ -751,14 +752,14 @@ h2{
 .alert button {
     border: none;
     outline: 0;
-    padding: 10px;
     color: white;
     background-color: red;
     text-align: center;
     cursor: pointer;
-    width: 5;
-    font-size: 18px;
+    width: 60px;
+    font-size: x-small;
     border-radius: 2ch;
+    margin-bottom: 10px;
 }
 
 .alert button:hover {
