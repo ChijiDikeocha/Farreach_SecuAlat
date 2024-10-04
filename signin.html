@@ -34,17 +34,17 @@
             </div>
         
             <div class="container">
-                <label for="username"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="yourname"><b>Your Name</b></label>
+                <input type="text" id="yourname-input" placeholder="Enter Your Name" name="yourname" required><br>
 
-                <label for="useremail"><b>Useremail</b></label>
-                <input type="text" id="email" placeholder="Enter Useremail" name="uemail" required>
+                <label for="youremail"><b>Your Email</b></label>
+                <input type="text" id="youremail-input" placeholder="Enter Your Email" name="uemail" required><br>
         
                 <label for="psw"><b>Password</b></label>
-                <input type="password" id="psw" placeholder="Enter Password" name="psw" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
-                title="Must contain at least one number and one uppercase and one lowercase letter and one symbol, and at least 8 or more characters" required>
+                <input type="password" id="psw-input" placeholder="Enter Password" name="psw" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+                title="Must contain at least one number and one uppercase and one lowercase letter and one symbol, and at least 8 or more characters" required><br>
                 <!-- An element to toggle between password visibility -->
-                <input type="checkbox" onclick="myFun()">Show Password
+                <input type="checkbox" onclick="myFun()">Show Password <br>
                 <button type="submit">Login</button>
                 <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me

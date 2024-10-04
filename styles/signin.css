@@ -255,59 +255,6 @@ p a{
     flex-wrap: wrap;
 }
 
-.signin {
-    width: 80%;
-    height: 40%;
-    background-color: rgb(41, 49, 49);
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 15px;
-    margin-top: 2%;
-    border-radius: 3ch;
-    padding-top: 10px;
-    padding-left: 10px;
-    cursor: pointer;
-    align-content: center;
-}
-
-.signin label {
-    margin-left: 20px;
-    padding: 20px;
-    font-size: x-large;
-    color: beige;
-}
-
-.signin input {
-    width: 90%;
-    height: 30px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    resize: horizontal;
-    border-radius: 2ch;
-    margin-left: 10px;
-    padding: 0 20px;
-}
-
-.SI {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 40px;
-    border-radius: 2ch;
-    font-size: x-large;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    margin-left: 15%;
-}
-
-.SI:hover {
-    background-color: #555;
-}
-
 }
 
 
@@ -333,59 +280,6 @@ p a{
     height: 50px;
 }
 
-.signin {
-    width: 80%;
-    height: 40%;
-    background-color: rgb(41, 49, 49);
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 15px;
-    margin-top: 2%;
-    border-radius: 3ch;
-    padding-top: 10px;
-    padding-left: 10px;
-    cursor: pointer;
-    align-content: center;
-}
-
-.signin label {
-    margin-left: 20px;
-    padding: 20px;
-    font-size: x-large;
-    color: beige;
-}
-
-.signin input {
-    width: 90%;
-    height: 30px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    resize: horizontal;
-    border-radius: 2ch;
-    margin-left: 10px;
-    padding: 0 20px;
-}
-
-.SI {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 40px;
-    border-radius: 2ch;
-    font-size: x-large;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    margin-left: 15%;
-}
-
-.SI:hover {
-    background-color: #555;
-}
-
 }
 
 @media screen and (max-width: 430px) {
@@ -408,60 +302,6 @@ p a{
     flex-wrap: wrap;
     height: 50px;
 }
-.signin {
-    width: 80%;
-    height: 40%;
-    background-color: rgb(41, 49, 49);
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 15px;
-    margin-top: 2%;
-    border-radius: 3ch;
-    padding-top: 10px;
-    padding-left: 10px;
-    cursor: pointer;
-    align-content: center;
-}
-
-.signin label {
-    margin-left: 20px;
-    padding: 20px;
-    font-size: x-large;
-    color: beige;
-}
-
-.signin input {
-    width: 90%;
-    height: 30px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    resize: horizontal;
-    border-radius: 2ch;
-    margin-left: 10px;
-    padding: 0 20px;
-}
-
-.SI {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 40px;
-    border-radius: 2ch;
-    font-size: x-large;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    margin-left: 15%;
-}
-
-.SI:hover {
-    background-color: #555;
-}
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -529,6 +369,10 @@ p a{
     height: 50px;
 }
 }
+
+
+
+
 
 /* The "responsive" class is added to the nav-keys with JavaScript when the user clicks on the icon. 
     This class makes the nav-keys look good on small screens (display the links vertically instead of horizontally) */
