@@ -652,6 +652,7 @@ h3 a{
     overflow: hidden;
     font-size: larger;
     margin-top: 120px;
+    
 }
 
 .scroll-text{
@@ -742,6 +743,7 @@ h3 a{
 .alert img{
     width: 80%;
     height: auto;
+    margin-top: 20px;
 }
 
 .alert{
