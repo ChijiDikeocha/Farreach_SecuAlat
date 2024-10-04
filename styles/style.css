@@ -702,9 +702,12 @@ h3 a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2%;
+    margin: 20px;
     margin-top: 140px;
-    /* margin-bottom: 30px; */
+}
+
+.alertmessage :hover{
+    background-color: rgb(69, 168, 168);
 }
 
 .alert{
@@ -742,7 +745,7 @@ h3 a{
 }
 
 .alert{
-    text-align: center;
+    text-align: left;
 }
 
 h2{
@@ -759,7 +762,7 @@ h2{
     width: 60px;
     font-size: x-small;
     border-radius: 2ch;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .alert button:hover {

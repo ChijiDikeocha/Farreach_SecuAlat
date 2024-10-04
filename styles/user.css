@@ -788,10 +788,13 @@ i{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 10px;
+        margin: 20px;
         margin-top: 50px;
     }
     
+.alertmessage :hover{
+    background-color: rgb(69, 168, 168);
+}
 .alert{
         width: 50%;
         border-radius: 10px;
@@ -807,7 +810,7 @@ i{
     }
     
 .alert{
-        text-align: center;
+        text-align:left;
     }
     
 h2{
@@ -823,7 +826,7 @@ h2{
         width: 90px;
         font-size: small;
         border-radius: 2ch;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     
 .alert button:hover {
