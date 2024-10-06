@@ -792,17 +792,15 @@ i{
         margin-top: 50px;
     }
     
-.alertmessage :hover{
+.alert :hover{
     background-color: rgb(69, 168, 168);
+    cursor: pointer;
 }
 .alert{
         width: 50%;
         border-radius: 10px;
     }
     
-.alert:hover{
-        cursor: pointer;
-    }
     
 .alert img{
         width: 80%;
@@ -824,9 +822,8 @@ h2{
         color: white;
         background-color: red;
         cursor: pointer;
-        width: 90px;
-        font-size: small;
-        border-radius: 2ch;
+        width: 100px;
+        border-radius: 1ch;
         margin-bottom: 15px;
     }
     
@@ -837,6 +834,7 @@ h2{
 .alert-content button a{
         color: white;
         text-decoration: none;
+        font-size: 14px;
     }
     
 
