@@ -742,6 +742,7 @@ h3 a{
     width: 80%;
     height: auto;
     margin-top: 20px;
+    border-radius: 2ch;
 }
 
 .alert{
