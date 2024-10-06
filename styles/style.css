@@ -737,6 +737,18 @@ h3 a{
         }
     } 
 
+@media screen and (max-width: 820px) {
+        .alert {
+            width: 50%;
+            }
+        } 
+
+@media screen and (max-width: 890px) {
+    .alert {
+        width: 50%;
+        }
+    } 
+
 
 .alert img{
     width: 80%;
