@@ -801,6 +801,9 @@ This class makes the nav-keys look good on small screens (display the links vert
 /* close media query for small screen */
         
 
-
+/* for error message */
+#error-message{
+    color:#f06272;
+}
 
 

@@ -127,8 +127,10 @@ button:hover {
   /* Extra style for the cancel button (red) */
 .cancelbtn {
     width: auto;
-    padding: 10px 18px;
+    padding: 10px 16px;
     background-color: #f44336;
+    margin-left: 15px;
+
 }
 
   /* Center the avatar image inside this container */
@@ -149,17 +151,18 @@ img.avatar {
 }
 
   /* The "Forgot password" text */
-span.psw {
+span.password {
     float: right;
     padding-top: 16px;
     color: red;
+    margin-right: 16px;
 }
 
 /* The message box is shown when the user clicks on the password field */
 #message {
     display:none;
     background: #f1f1f1;
-    color: #000;
+    color: #f06272;
     position: relative;
     padding: 20px;
     margin-top: 10px;
@@ -169,6 +172,11 @@ span.psw {
     padding: 10px 35px;
     font-size: 18px;
 }
+
+#error-message{
+    color:#f06272;
+}
+
 
   /* Add a green text color and a checkmark when the requirements are right */
 .valid {
